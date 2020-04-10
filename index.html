@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Test Title</h1>
+<!-- <style> -->
 
-    <script type="module" src="./practice.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Eli's Functions</title>
+
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <h1>Functions Practice</h1>
+
+  <button onclick="myFunction()">Click me</button>
+  <p id="demo"></p>
+
+
+
+
+  <!-- <script type="module" src="./practice.js"></script> -->
+  <script type="module" src="./practice7.js"></script>
+
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello World";
+    }
+
+
+
+
+  </script>
+
+
+
+
+  <form name="taskCompleteForm">
+    <input type="checkbox" name="Complete Task clicked " onClick="alert('task1')">Complete Task<br>
+    <!-- <input type="checkbox" name="door2" onClick="displayNote()">2 doors<hr> -->
+    Click to submit:
+    <input type="button" value="Submit" name="completeButton" onClick="alert('completed task submitted')">
+  </form>
+  <script language="JavaScript">
+
+  </script>
+
+
+
+  <h2>Is it a Palidrome?</h2>
+  <div id="answer">
+  </div>
+
 </body>
+
+
+
+
+
+
 </html>
+
+
+<!-- 
+< !--
+      function displayNote() {
+        alert("Have you considered the 4-door version?");
+        document.taskCompleteForm.task1.click();
+      }
+    -->
